@@ -1,0 +1,9 @@
+<div class="row" id="stats-cluster-count">
+    <h3>Secondary Metabolite record counts <small>by type</small></h3>
+    <ul class="list-group">
+      <li class="list-group-item col-md-6" ng-repeat="record in $ctrl.records">
+        <span class="badge" ng-class="record.type">{{record.count}}</span>
+        {{record.description}}
+      </li>
+    </ul>
+  </div>

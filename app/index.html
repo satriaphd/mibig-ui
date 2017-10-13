@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" ng-app="mibig">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>MIBiG: Minimum Information about a Biosynthetic Gene cluster</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-antismash">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="./images/mibig_logo.svg" alt="MIBiG logo" width="75px" style="margin-top: -10px">
+        </a>
+        <a class="navbar-brand" href="#">
+          Minimum Information on Biosynthetic Gene clusters
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#!/">
+            <i class="fa fa-home"></i> &nbsp; Home</a>
+        </li>
+        <li>
+          <a href="#!/stats">
+            <i class="fa fa-bar-chart"></i> &nbsp; Statistics</a>
+        </li>
+        <li>
+          <a href="#!/query">
+            <i class="fa fa-search"></i> &nbsp; Search</a>
+        </li>
+        <li>
+          <a href="#!/repository">
+            <i class="fa fa-compass"></i> &nbsp; Repository</a>
+        </li>
+        <li>
+          <a href="#!/submit">
+            <i class="fa fa-paper-plane"></i> &nbsp; Submit</a>
+        </li>
+        <li>
+          <a href="#!/update">
+            <i class="fa fa-pencil"></i> &nbsp; Update</a>
+        </li>
+        <li>
+          <a href="#!/download">
+            <i class="fa fa-download"></i> &nbsp; Download</a>
+        </li>
+        <li>
+          <a href="#!/contact">
+            <i class="fa fa-envelope"></i> &nbsp; Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div ui-view></div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="col-sm-2">
+        <img src="./images/mibig_logo.svg" height="80px">
+      </div>
+      <div class="col-sm-7 cite-me well">
+        Comments or questions on MIBiG? Please do not hesitate to
+        <a href="#!/contact">
+          <i class="fa fa-envelope"></i> contact</a> us.
+        <br>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+          <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png">
+        </a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution 4.0 International License.</a>
+      </div>
+      <div class="col-sm-3 org-logos">
+        <div class="col-sm-4">
+          <img src="./images/gsc_logo2.png" height="80px">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
